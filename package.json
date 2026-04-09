@@ -4,16 +4,12 @@
   "description": "Bot Discord pour studio de mixage",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "discord.js": "^14.14.1"
   },
-  "devDependencies": {
-    "nodemon": "^3.0.0"
-  },
   "engines": {
-    "node": ">=16.11.0"
+    "node": "18.x"
   }
 }
